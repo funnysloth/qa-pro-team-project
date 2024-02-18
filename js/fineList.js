@@ -7,7 +7,7 @@ window.fineList = {
 let DB = data.finesData;
 
 function searchFines(searchKey){
-           return finesData.filter(fine => fine.номер === searchKey || fine.тип === searchKey);
+           return DB.filter(fine => fine.номер === searchKey || fine.тип === searchKey);
    
     /*
      Напишіть свій код тут!
